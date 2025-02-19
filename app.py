@@ -3,6 +3,7 @@ import joblib
 import re
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
